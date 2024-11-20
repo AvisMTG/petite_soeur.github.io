@@ -1,144 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-
-nav {
-    background-color: #444;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px;
-}
-
-h2 {
-    text-align: center;
-    position: relative;
-    margin : 20px 0;
-}
-
-h2::after {
-    content: "";
-    display: block;
-    height: 15px; /* Épaisseur du trait */
-    width: 50%; /* Moitié inférieure du titre */
-    background-color: #5b5a5a6b; /* Couleur grise du trait */
-    position: absolute;
-    bottom: 0;
-    left: 25%; /* Pour centrer le trait */
-}
-
-nav ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    border-radius: 10px; /* Coins arrondis attachés au menu */
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #fff;
-}
-
-main {
-    padding: 20px;
-    color: #000;
-}
-
-footer {
     text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
-/* Animation de trait sous les liens du menu */
-nav ul li {
-    position: relative;
 }
 
-nav ul li a::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: #fff;
-    left: 0;
-    bottom: 0;
-    transition: width 0.3s ease;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-}
-
-/* Arrondir les coins des boutons */
-button {
-    border: none;
-    border-radius: 5px;
-    background-color: #363636e3; 
-    color: #fff;
-    padding: 5px 10px;
-}
-
-.offre-du-moment {
-    margin: 20px;
-}
-
-.product-section {
-    border: 2px solid #ccc;
-    border-radius: 15px;
+.container {
+    margin-top: 20%;
+    background: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    width: 300px;
-    text-align: center;
-    margin: 20px;
-    display: inline-block;
-  }
-  
-  .product-section img {
-    max-width: 100%;
     border-radius: 10px;
-  }
-  
-  .product-section h2 {
-    font-size: 24px;
-    margin-top: 10px;
-  }
-  
-  .product-section p {
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  
-  .product-section a.affiliate-button {
     display: inline-block;
-    background-color: #444546;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0066cc;
     color: #fff;
+    border: none;
     padding: 10px 20px;
-    text-decoration: none;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
     border-radius: 5px;
-    margin-top: 10px;
-    transition: background-color 0.3s;
-  }
-  
-  .product-section a.affiliate-button:hover {
-    background-color: #323334;
-  }
-  
-  .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    justify-items: center;
-    padding: 20px;
-  }
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d99;
+}
+
+.result {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#output {
+    font-weight: bold;
+}
