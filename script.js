@@ -17,7 +17,6 @@ const versets = [
     "nehemie-8-10",
     "esther-4-14",
     "job-8-7",
-    "psaume-23-1",
     "psaume-27-1",
     "psaume-34-8",
     "psaume-46-1",
