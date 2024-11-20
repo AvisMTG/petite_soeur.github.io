@@ -49,3 +49,11 @@ button:hover {
 #output {
     font-weight: bold;
 }
+
+.result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Ombre douce */
+    margin-top: 20px;
+}
