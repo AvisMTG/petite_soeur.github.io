@@ -1,1 +1,1 @@
-sitemap: https://avismtg.github.io/sitemap.xml
+sitemap: https://petite_soeur.github.io/sitemap.xml
