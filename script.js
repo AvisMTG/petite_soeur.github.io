@@ -156,7 +156,8 @@ const output = document.getElementById('output');
 
 // Ajouter des événements aux boutons
 complimentBtn.addEventListener('click', () => {
-    const compliments = [
+    const compliments = [*
+    "Tu es le fromage de la raclette, tu es indispensable!",
     "Tu es la meilleure petite sœur du monde !",
     "Ton sourire rend chaque journée plus belle.",
     "Tu es un véritable rayon de soleil.",
