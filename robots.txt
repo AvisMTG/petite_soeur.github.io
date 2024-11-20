@@ -1,1 +1,0 @@
-sitemap: https://petite_soeur.github.io/sitemap.xml
